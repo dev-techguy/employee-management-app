@@ -19,7 +19,6 @@ public class EmployeeService {
         return employeeRepo.save(employee);
 
     }
-
     public List<Employee> findAllEmployees() {
         return employeeRepo.findAll();
     }
@@ -27,7 +26,6 @@ public class EmployeeService {
     public Employee updateEmployee(Employee employee) {
         return employeeRepo.save(employee);
     }
-
 
     public Employee findEmployeeById(Long id) {
         return employeeRepo.findEmployeeById(id)
